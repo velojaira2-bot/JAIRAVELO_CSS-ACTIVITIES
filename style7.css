@@ -1,0 +1,19 @@
+h1, h2 {
+  color: #8a2be2;
+}
+
+.box p.done {
+  color: #b22222;
+}
+
+.list li:not(.done) {
+  color: #0000ff;
+}
+
+.list li.done {
+  color: #228b22;
+}
+
+ul p.done {
+  font-size: 10px;
+}

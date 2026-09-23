@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal 6</title>
+</head>
+    <style>
+        * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+}
+
+.outer-box {
+    margin: 30px;
+    padding: 40px;
+    background: purple;
+    min-height: 670px;
+}
+
+.inner-box {
+    min-height: 590px;
+    padding: 35px 40px;
+    background: blue;
+}
+
+.yellow-text {
+    color: yellow;
+    font-family: "Times New Roman", serif;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+.red-box {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 75px;
+    padding: 35px;
+    background: red;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-size: 40px;
+}
+
+.red-box:last-child {
+    margin-bottom: 0;
+}
+    </style>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <div class="yellow-text">Yellow Text</div>
+
+            <div class="red-box">
+                <span>White Text</span>
+            </div>
+
+            <div class="yellow-text">Yellow Text</div>
+
+            <div class="red-box">
+                <span>White Text</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
